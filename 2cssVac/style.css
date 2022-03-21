@@ -1,0 +1,42 @@
+html{
+    font-family: 'Catamaran', sans-serif;
+}
+
+body{
+    margin:0;
+    background-color: #efefef;
+}
+.container{
+    height: 200px;
+    margin: 3rem;
+}
+.container2{
+    height: 100px;
+    margin: 1rem;
+}
+.colum{
+
+    margin: 0;
+    /* padding: 10px 0px; */
+    width: 20%;
+}
+
+.left{
+    float: right;
+    width: 400px;
+}
+
+.right {
+    float: right;
+}
+#position {
+    position: sticky;
+    left: 20px;
+    top: 25px;
+    padding: 50px;
+    background-color: rgb(255, 255, 255,0.3);
+}
+.inline-block{
+    display: inline-block;
+    width: 250px;
+}
